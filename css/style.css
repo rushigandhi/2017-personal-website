@@ -14,6 +14,7 @@ body {
     url('fonts/raleway_thin-webfont.woff') format('woff'),
     url('fonts/raleway_thin-webfont.ttf') format('truetype'),
     url('fonts/raleway_thin-webfont.svg#raleway') format('svg');
+	font-weight: 200;
 }
 
 .titleName {
@@ -22,7 +23,7 @@ body {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
-	border-bottom: 5px solid #265368;
+	border-bottom: 4px solid #265368;
 	overflow: hidden;
 	animation: reveal 2s linear forwards;
 }
@@ -30,9 +31,103 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: raleway;
-	font-size: 6em;
+	font-size: 8em;
 	text-transform: lowercase;
-	color: #3198BB;
+	color: rgba(49,152,187,.3);
+	background-image: url('../images/water.png');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: waterFill 7s linear infinite;
+	-webkit-animation: waterFill 7s linear infinite;
+    -moz-animation: waterFill 7s linear infinite;
+    -o-animation: waterFill 7s linear infinite;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes waterFill {
+	
+	0%
+	{
+		background-position: left 0px top 80px;
+	}
+	
+	40%
+	{
+		background-position: left 800px top -50px;
+	}
+	80%
+	{
+		background-position: left 1800px top -100px;
+	}	
+	100%
+	{
+		background-position: left 2400px top -200px;
+	}
+}
+
+@-webkit-keyframes waterFill {
+	
+	0%
+	{
+		background-position: left 0px top 80px;
+	}
+	
+	40%
+	{
+		background-position: left 800px top -50px;
+	}
+	80%
+	{
+		background-position: left 1800px top -100px;
+	}	
+	100%
+	{
+		background-position: left 2400px top -200px;
+	}
+}
+
+@-moz-keyframes waterFill {
+
+	0%
+	{
+		background-position: left 0px top 80px;
+	}
+	
+	40%
+	{
+		background-position: left 800px top -50px;
+	}
+	80%
+	{
+		background-position: left 1800px top -100px;
+	}	
+	100%
+	{
+		background-position: left 2400px top -200px;
+	}
+}
+
+@-o-keyframes waterFill {
+	
+	0%
+	{
+		background-position: left 0px top 0px;
+	}
+	
+	40%
+	{
+		background-position: left 800px top -50px;
+	}
+	80%
+	{
+		background-position: left 1800px top -150px;
+	}	
+	100%
+	{
+		background-position: left 2400px top -200px;
+	}
 }
 
 @keyframes reveal {
@@ -41,34 +136,28 @@ body {
 	{
 		width: 0px;
 		height: 0px;
-		
 	}
 	
 	30%
 	{
-		width: 575px;
+		width: 700px;
 		height: 0px;
-		
 	}
 	60%
 	{
-		width: 575px;
-		height: 115px;
-		
+		width: 700x;
+		height: 155px;
 	}	
 	80%
 	{
-		width: 575px;
-		height: 115px;
-		
+		width: 700px;
+		height: 155px;
 	}
 	100%
 	{
-		width: 575px;
-		height: 115px;
-		
+		width: 700px;
+		height: 155px;
 	}
-	
 }
 
 .waterBubbles {
@@ -173,7 +262,6 @@ body {
 		transform: translateY(0) rotate(0deg);
 		opacity: 1;
 		border-radius: 50%;
-		
 	}
 	
 	100%
@@ -181,7 +269,5 @@ body {
 		transform: translateY(-1000px) rotate(720deg);
 		opacity: 0;
 		border-radius: 80%;
-		
 	}
-	
 }
