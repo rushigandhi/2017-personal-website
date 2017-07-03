@@ -4,11 +4,12 @@
 			<meta charset="utf-8">
 			<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 			<title>Rushi Gandhi</title>
 			<link rel="stylesheet" type="text/css"  href="css/style.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<script  src="https://code.jquery.com/jquery-3.2.1.js"  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="  crossorigin="anonymous"></script>
 			<script src="js/typed.js"></script>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
 			<script type="text/javascript">
 			setTimeout( function(){ 
 			$(function(){
@@ -22,6 +23,12 @@
 			});
 			});
 			}  , 6000 );
+			
+			setTimeout( function(){ 
+			document.getElementById("github").style.visibility = "visible";
+			document.getElementById("linkedin").style.visibility = "visible";
+			document.getElementById("facebook").style.visibility = "visible";
+			}  , 20300 );
 			</script>
 		</head>
 		<body>
@@ -32,7 +39,9 @@
 			<div class="subHeading">
 			<span class="type"></span>
 			</div>
-			<div>
+			<i id="github" class="fa fa-github" style="visibility: hidden; font-size:40px; color: #265368;position: absolute;top: 70%;left: 40%;transform: translate(-50%,-50%);text-align: center;"></i>
+			<i id="linkedin" class="fa fa-linkedin" style="visibility: hidden; font-size: 40px; color: #265368;position: absolute;top: 70%;left: 50%;transform: translate(-50%,-50%);text-align: center;"></i>
+			<i id="facebook" class="fa fa-facebook" style="visibility: hidden; font-size: 40px; color: #265368;position: absolute;top: 70%;left: 60%;transform: translate(-50%,-50%);text-align: center;"></i>
 			<ul class="waterBubbles">
 			<li></li>
 			<li></li>
