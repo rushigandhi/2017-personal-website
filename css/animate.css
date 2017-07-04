@@ -50,8 +50,6 @@
 }
 
 .bounce {
-  -webkit-animation-delay: 20.2s;
-  animation-delay: 20.2s;
   animation-name: bounce;
   transform-origin: center bottom;
 }
@@ -463,6 +461,8 @@
 }
 
 .bounceInUp {
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
   animation-name: bounceInUp;
 }
 
