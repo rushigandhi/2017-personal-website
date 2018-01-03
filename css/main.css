@@ -82,15 +82,16 @@ img {
 }
  
 h1, h2, h3, h4, h5 {
-	font-family: proxima-nova, sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-style: normal;
 }
  
 h3 {
-	font-size: 1.875em;
+	font-size: 2.5em;
 	padding: 0 0 1% 0;
 	color: #001833;
 	font-weight: 800;
+	font-family: 'Dosis', sans-serif;
 }
 
 /* HEADER */
@@ -122,7 +123,8 @@ header {
 }
  
 .intro h1 {
-	font-size: 6em;
+	font-family: 'Dosis', sans-serif;
+	font-size: 8em;
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
@@ -132,10 +134,11 @@ header {
 }
  
 .intro h2 {
-	font-size: 2em;
+	font-family: 'Dosis', sans-serif;
+	font-size: 3em;
 	text-align: center;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: capitalize;
 	letter-spacing: 0.09em;
 }
@@ -160,20 +163,20 @@ header {
 }
 .profpic {
 	border-radius: 50%;
-	width: 300px;
-	height: 300px;
+	width: 30%;
+	height: 30%;
 
 }
  
 .about p {
-	font-family: proxima-nova, sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	line-height: 1.8;
 	color: #265368;
 	letter-spacing: .03em;
 	margin: 10px auto;
-	font-size: 1.5em;
+	font-size: 2em;
 	padding: 2% 0;
 }
  
@@ -192,6 +195,9 @@ header {
  
 .work h3 {
 	padding: 2% 0;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
+	font-size: 2em;
 }
  
 .text-box {
@@ -203,14 +209,15 @@ header {
 }
  
 .text-box-content {
-	padding: 0% 8%;
+	padding: 4% 8%;
 }
  
 .text-box-content p {
 	line-height: 1.8;
+	font-family: 'Dosis', sans-serif;
 	color: #265368;
 	letter-spacing: .03em;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 .image-area {
