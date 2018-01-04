@@ -118,7 +118,7 @@ header {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 8% 0;
-		z-index: -2;
+	z-index: -2;
 
 }
  
@@ -149,7 +149,7 @@ header {
 
 
 .wrapper {
-	max-width: 1200px;
+	max-width: 960px;
 	margin: 0 auto;
 	font-family: proxima-nova, sans-serif;
 	-webkit-animation-delay: 4s;
@@ -203,12 +203,9 @@ header {
 .text-box {
 	float: left;
 	text-align: left;
-	width: 700px;
+	width: 480px;
 	background-color: #fff;
 	height: 100%;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-
 
 }
  
@@ -234,7 +231,6 @@ header {
 	display: inline-block;
 	font-weight: 600;
 	margin-top: 4%;
-	border-radius: 8px;
 }
  
 .button:hover {
@@ -249,8 +245,7 @@ header {
 	width: 480px;
 	height: 300px;
 	overflow: hidden;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+
 }
  
 .left {
@@ -261,6 +256,59 @@ header {
 	float: right;
 }
 
+
+footer {
+ background-color: #265368;
+ color:#fff;
+ padding: 2% 0;
+ width: 100%;
+ clear: both;
+ height: 200px;
+}
+ 
+.footer-content {
+ max-width: 960px;
+ padding: 0% 0;
+ margin:0 auto;
+font-family: 'Dosis', sans-serif;
+ font-style: normal;
+ font-weight: 300;
+ line-height: 1.4;
+ color: #fff;
+ letter-spacing: .03em;
+ font-size:1em;
+}
+ 
+.title {
+
+	font-family: 'Dosis', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	color: #fff;
+	font-weight: 800;
+	text-transform: capitalize;
+	letter-spacing: 0.09em;
+}
+ 
+.social {
+}
+ 
+.social li {
+ display:inline;
+}
+ 
+.social li a {
+ padding: 4% 4%;
+ color:#fff;
+ size: 100%
+ padding:0.2em;
+ font-size:3em;
+ font-weight:600;
+}
+ 
+.social li a:hover {
+ color:#011833;
+}
 
 /* FOR DIFFERENT SIZED SCREENS*/
 
