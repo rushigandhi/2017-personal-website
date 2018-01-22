@@ -242,8 +242,8 @@ header {
 
 
 .image-area {
-	width: 480px;
-	height: 300px;
+	width: 50%;
+	height: 100%;
 	overflow: hidden;
 
 }
